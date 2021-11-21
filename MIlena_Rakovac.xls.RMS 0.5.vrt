@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="MIlena_Rakovac-RMS 0.5">
+        <SrcDataSource relativeToVRT="1">MIlena_Rakovac.xls</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>RMS 0.5</SrcLayer>
+        <Field name="RB" src="RB" type="Real"/>
+        <Field name="MARKER" src="MARKER" type="String"/>
+        <Field name="RMS" src="RMS" type="Real"/>
+        <Field name="Apeak" src="Apeak" type="Integer"/>
+        <Field name="X" src="X" type="Real"/>
+        <Field name="Y" src="Y" type="Real"/>
+        <Field name="Z" src="Z" type="Real"/>
+        <Field name="V" src="V" type="Real"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="lon" y="lat"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
