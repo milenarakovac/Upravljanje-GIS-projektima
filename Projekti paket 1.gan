@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Analiza Udobnosti Merenjem Ubrzanja  (AUMA)" company="Master GIS upravljanje projektima" webLink="http://" view-date="2021-10-25" view-index="0" gantt-divider-location="581" resource-divider-location="300" version="2.8.11" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="261" order="0"/>
+        <field id="tpd4" name="Begin date" width="158" order="1"/>
+        <field id="tpd5" name="End date" width="158" order="2"/>
+        <timeline><![CDATA[5,2,0]]></timeline>
+        <option id="color.recent"><![CDATA[#ff0000 #ffff33 #cc33ff #6666ff #f4f4f4 #33cc00 #99ff99 #ccffcc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Sastavljanje projektnog tima" color="#ccffcc" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" project="true" start="2021-10-26" duration="6" complete="0" thirdDate="2021-10-26" thirdDate-constraint="0" expand="true">
+            <task id="2" name="Poziv za clanove tima" color="#ccffcc" meeting="false" start="2021-10-26" duration="1" complete="0" thirdDate="2021-11-22" thirdDate-constraint="0" expand="true"/>
+            <task id="5" name="Javljanje clanova zainteresovanih za ucestvovanje na projektu" color="#ccffcc" meeting="false" start="2021-10-26" duration="4" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+            <task id="7" name="Odabir clanova projektnog tima" color="#ccffcc" meeting="false" start="2021-10-26" duration="6" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="16" name="Prosledjivanje materijala za obradu clanovima projektnog tima" color="#99ff99" meeting="false" start="2021-11-02" duration="1" complete="0" thirdDate="2021-11-02" thirdDate-constraint="1" expand="true">
+            <task id="43" name="Instalacija QGIS softvera" color="#99ff99" meeting="false" start="2021-11-02" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="19" name="Pocetak projektnog zadatka u QGIS-u" color="#33cc00" meeting="false" project="true" start="2021-11-03" duration="1" complete="0" thirdDate="2021-11-03" thirdDate-constraint="0" expand="true">
+            <task id="21" name="Importovanje podataka u QGIS softver" color="#33cc00" meeting="false" start="2021-11-03" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[ucitavanje .xls tabele]]></notes>
+            </task>
+            <task id="25" name="Definisanje koordinatnog sistema" color="#33cc00" meeting="false" start="2021-11-03" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+            <task id="27" name="Kreiranje .shp datoteke" color="#33cc00" meeting="false" start="2021-11-03" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="29" name="Obrada i analiza podataka u QGIS softveru" color="#6666ff" meeting="false" start="2021-11-03" duration="3" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="31" name="Ucitavanje rasterskog layera Google Maps u QGIS softver" color="#6666ff" meeting="false" start="2021-11-03" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="Klasifikacija podataka po odredjenom kriterijumu" color="#6666ff" meeting="false" start="2021-11-03" duration="3" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="Kreiranje putanje" color="#6666ff" meeting="false" start="2021-11-05" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="38" name="Provera analiza" color="#cc33ff" meeting="false" start="2021-11-05" duration="2" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+        <task id="40" name="Izrada karti" color="#ffff33" meeting="false" start="2021-11-08" duration="3" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+        <task id="42" name="Finalizacija celokupnog projekta i izrada pratece dokumentacije" color="#ff0000" meeting="false" start="2021-11-09" duration="11" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
